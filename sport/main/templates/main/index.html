@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testimonials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    
+        </head>
+
+        <body>
+           
+    
+    
+        <br></br>
+        <p class="zag">About Sportmens</p>
+    <br></br>    
+    
+      <table class="table table-striped table-hover">
+        {% for i in sss%}
+        
+        <tr>
+            <th>{{i.name}}</th>
+            <th>{{i.surname}}</th>
+            <th>{{i.age}}</th>
+            
+        </tr>
+        {%endfor%}
+    </table>
+        <div class="people">
+            
+             <div class="text_direction">
+            <h1>TOKYO</h1>
+            <div style="width:45px;height:22px;border:0.5px solid rgb(90, 70, 70);font-family:cursive;background-color:white;">Japan</div>
+            <br>
+            <text>The Tokyo Olympics won't be anything like the Games you've watched in the past.
+                </text>
+            <h3>Mechael Serbin</h3>
+            <a href="https://weproject.media/en/articles/detail/why-foreigners-believe-that-kazakhstan-is-a-safe-country-to-travel-work-and-live/"><button type="button" class="btn btn-outline-primary">Read more</button></a>
+            </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr style="height:0.2px;border-width:0;color:rgb(228, 220, 220);background-color:rgb(228, 222, 222)">
+     
+    <div class="people">
+        
+        
+         <div class="text_direction">
+        <h1>LONDON</h1>
+        <div style="width:24px;height:22px;border:0.5px solid rgb(90, 70, 70);font-family:cursive;background-color:white;">UK</div>
+        <br> 
+        <text>The London 2012 Games were centred around the Olympic Park in East London, which is the site of a number of new sports venues. Up to 180,000 spectators a day entered the Park to enjoy the Games, making it the principal focus of Olympic activity. </text>
+        <h3>Amir Alimbekerov</h3>
+        <a href="https://weproject.media/en/articles/detail/why-lankans-moved-to-almaty-with-the-family-and-fell-in-love-with-the-city/"><button type="button" class="btn btn-outline-primary">Read more</button></a>
+    </div>
+</div>
+<br>
+    <br>
+    <br>
+    <br>
+    <hr style="height:0.2px;border-width:0;color:rgb(228, 220, 220);background-color:rgb(228, 222, 222)">
+
+    <br>
+    <br> 
+    <br>
+</div>
+     <div class="text_direction">
+    <h1>BEIJING</h1>
+    <div style="width:40px;height:22px;border:0.5px solid rgb(90, 70, 70);font-family:cursive;background-color:white;">China</div>
+    <br>
+    <text>Beijing was the Games of records and superlatives. The Opening Ceremony was unforgettable; the athletes achievements were astonishing</text>
+    <h3>Gennady Golovkin</h3>
+    
+     <a href="https://weproject.media/en/articles/detail/why-foreigners-believe-that-kazakhstan-is-a-safe-country-to-travel-work-and-live/"><button type="button" class="btn btn-outline-primary">Read more</button></a>
+     
+    
+    </div>
+    </div>
+    
+    
+   
+
+
+        <style>
+            p.zag {
+        font-family: Noto Sans;
+         font-size: large;
+         text-align: center;
+            }
+            .people {
+                display:flex;
+               
+            }
+         .text_direction text {
+             font-size: 20px;
+             
+         }
+         .text_direction {
+                
+                margin-inline: 10%;
+                margin-top:80px;
+                margin-top: 3%;
+               
+         }
+        
+         
+
+         
+         
+        </style>
+        </body>
+        </html>
